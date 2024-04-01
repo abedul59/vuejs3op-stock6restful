@@ -1,4 +1,7 @@
 <template>
+
+<Stock6Sign202402></Stock6Sign202402>
+
   <div class="hello">
     <h1>{{ msg }}</h1>
 
@@ -39,7 +42,6 @@
   <br>
 
 
-<Stock6Sign202402 msg2="Welcome"/>
 </template>
 
 <script>

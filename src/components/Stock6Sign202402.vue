@@ -1,8 +1,6 @@
 <template>
     <div class="hello">
-      <h1>{{ msg }}</h1>
-  
-  
+
       <button @click="plus">click me3!</button>
       <p>Message is {{ count }}</p>
   
@@ -17,15 +15,11 @@
  
   export default {
     name: 'Stock6Sign202402',
-    props: {
-      msg2: String
-    }, 
+
     data(){
       return {
 
         count: 0,
-
-       
   
       }
     },
