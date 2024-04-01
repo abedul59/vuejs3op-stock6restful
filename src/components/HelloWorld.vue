@@ -1,32 +1,40 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+    <h1>{{price}}</h1><br>
+    <h1>{{quantity}}</h1><br>
+    <h1>{{price * quantity}}</h1><br>
+    <h1>{{subtotal1}}</h1><br>
+    <h1>{{subtotal2()}}</h1><br>
+
+    <input v-model = "message1" placeholder="edit me!">
+    <p>Message is {{ message1 }}</p>
+
+    <textarea v-model="message2" placeholder="add multiple lines"></textarea>
+    <p><span>Multiline message is:</span> {{ message2 }}</p>
+
+    <button>click me!</button>
+
+    <button v-bind:disabled="isBtnDisabled">click me2!</button>
+
+    <button @click="plus">click me3!</button>
+    <p>Message is {{ count }}</p>
+
+
+    <input type="text" v-model="inputText" placeholder="Type something">
+    <button @click="showResult">Submit</button>
+    <div v-if="result">
+      <p>Result: {{ result }}</p>
+    </div>
+
+    <input type="text" v-model="inputText2" placeholder="Type something2">
+    <button @click="handleSubmit">Submit2</button>
+    <div v-if="result2">
+      <p>Result2: {{ result2 }}</p>
+    </div>
+
+
   </div>
 </template>
 
@@ -35,8 +43,63 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  }, 
+  data(){
+    return {
+      isBtnDisabled: true,
+      price: 1000,
+      quantity: 5.5,
+      message1: "",
+      message2: "",
+      count: 0,
+      inputText: '',
+      inputText2: '',
+      result: '',
+      result2: '',
+      Url: ''
+     
+
+    }
+  },
+
+  computed: {
+    subtotal1: function(){
+      return this.price * this.quantity;
+    } 
+  },
+
+  methods: {
+    subtotal2: function(){
+      return this.price * this.quantity;
+    },
+    plus(){
+      this.count++;
+    },
+
+    showResult() {
+          this.result = this.inputText;
+        },
+
+    handleSubmit(){
+
+        this.result2 =  `https://stock6-restfulex.onrender.com/api/Stock6Sign202402/getstockinfo/${this.inputText2}`;
+
+        console.log(`最新得到網址為${this.result2}`);       
+        fetch(this.result2) 
+        .then(data => data.json())
+        .then(response => {
+          const {cStockName, cNewestSeason} = response;
+          console.log(cStockName);
+          console.log(cNewestSeason);
+          
+          
+        });  
+      },      
+
 }
+
+}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
