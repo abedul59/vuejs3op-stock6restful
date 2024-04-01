@@ -36,9 +36,13 @@
 
 
   </div>
+
+
+  <Stock6Sign202402 msg="Welcome to stock6!"/>
 </template>
 
 <script>
+//import Stock6Sign202402 from './components/Stock6Sign202402.vue'
 export default {
   name: 'HelloWorld',
   props: {
