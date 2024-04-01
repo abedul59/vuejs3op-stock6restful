@@ -1,9 +1,10 @@
 <template>
 
-<Stock6Sign202402></Stock6Sign202402>
+
 
   <div class="hello">
     <h1>{{ msg }}</h1>
+
 
     <h1>{{price}}</h1><br>
     <h1>{{quantity}}</h1><br>
@@ -45,12 +46,10 @@
 </template>
 
 <script>
-import Stock6Sign202402 from './components/Stock6Sign202402.vue'
+//import Stock6Sign202402 from './components/Stock6Sign202402.vue'
 export default {
   name: 'HelloWorld',
-  components: {
-    Stock6Sign202402
-  },
+
   props: {
     msg: String
   }, 
