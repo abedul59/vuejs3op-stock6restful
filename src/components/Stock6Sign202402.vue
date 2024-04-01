@@ -18,7 +18,7 @@
   export default {
     name: 'Stock6Sign202402',
     props: {
-      msg: String
+      msg2: String
     }, 
     data(){
       return {
