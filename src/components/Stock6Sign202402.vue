@@ -4,7 +4,7 @@
       <button @click="plus">click me3!</button>
       <p>Message is {{ count }}</p>
   
-  
+      <p>Message2 is {{ msg2 }}</p>  
 
   
   
@@ -15,7 +15,11 @@
  
   export default {
     name: 'Stock6Sign202402',
-
+    components: {
+    },
+    props: {
+    msg2: String
+     }, 
     data(){
       return {
 
