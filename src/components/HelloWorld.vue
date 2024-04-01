@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import Stock6Sign202402 from './components/Stock6Sign202402.vue'
+//import Stock6Sign202402 from './components/Stock6Sign202402.vue'
 export default {
   name: 'HelloWorld',
   props: {
