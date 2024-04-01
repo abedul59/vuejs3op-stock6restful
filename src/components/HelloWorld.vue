@@ -39,7 +39,7 @@
   <br>
 
 
-  <Stock6Sign202402 v-bind:msg="Welcome"/>
+<Stock6Sign202402 msg2="Welcome"/>
 </template>
 
 <script>
@@ -47,7 +47,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg2: String
   }, 
   data(){
     return {
