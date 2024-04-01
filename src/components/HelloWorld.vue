@@ -4,7 +4,7 @@
 
   <div class="hello">
     <h1>{{ msg }}</h1>
-
+    <h1>{{ msg }}</h1>
 
     <h1>{{price}}</h1><br>
     <h1>{{quantity}}</h1><br>
