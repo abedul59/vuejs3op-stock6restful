@@ -36,13 +36,14 @@
 
 
   </div>
+  <br>
 
 
-  <Stock6Sign202402 msg="Welcome to stock6!"/>
+  <Stock6Sign202402 v-bind:msg="Welcome"/>
 </template>
 
 <script>
-//import Stock6Sign202402 from './components/Stock6Sign202402.vue'
+import Stock6Sign202402 from './components/Stock6Sign202402.vue'
 export default {
   name: 'HelloWorld',
   props: {
@@ -50,6 +51,7 @@ export default {
   }, 
   data(){
     return {
+      //msg: "Welcome here!",
       isBtnDisabled: true,
       price: 1000,
       quantity: 5.5,

@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to stock6!"/>
+  <HelloWorld v-bind:msg= "MMMMM"/>
 </template>
 
 <script>
