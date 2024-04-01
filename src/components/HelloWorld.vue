@@ -41,21 +41,24 @@
 
   </div>
   <br>
-
+  <TotalScore stock6data="stock6data" />
 
 </template>
 
 <script>
-//import Stock6Sign202402 from './components/Stock6Sign202402.vue'
+import TotalScore from './components/TotalScore.vue'
 export default {
   name: 'HelloWorld',
+  components: {
+    TotalScore
+  },
 
   props: {
-    msg: String
+
   }, 
   data(){
     return {
-      //msg: "Welcome here!",
+
       isBtnDisabled: true,
       price: 1000,
       quantity: 5.5,
