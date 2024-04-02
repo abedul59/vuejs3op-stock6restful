@@ -41,16 +41,47 @@
 
   </div>
   <br>
-  <TotalScore v-bind:stock6data="response" />
+  <div>
+ 
+
+ <div>
+     <table>
+     <tr>
+     <td><h1>指標1</h1></td>
+     <td><h1>{response.cSign1}</h1></td>
+     </tr>
+     <tr>
+     <td><h1>指標2</h1></td>
+     <td><h1>{response.cSign2}</h1></td>
+     </tr>
+     <tr>
+     <td><h1>指標3</h1></td>
+     <td><h1>{response.cSign3}</h1></td>
+     </tr>
+     <tr>
+     <td><h1>指標4</h1></td>
+     <td><h1>{response.cSign4}</h1></td>
+     </tr>
+     <tr>
+     <td><h1>指標5</h1></td>
+     <td><h1>{response.cSign5}</h1></td>
+     </tr>
+     <tr>
+     <td><h1>指標6</h1></td>
+     <td><h1>{response.cSign6}</h1></td>
+     </tr>
+     </table>
+ </div>
+ </div>
 
 </template>
 
 <script>
-import TotalScore from './components/TotalScore.vue'
+
 export default {
   name: 'HelloWorld',
   components: {
-    TotalScore
+
   },
 
   props: {
