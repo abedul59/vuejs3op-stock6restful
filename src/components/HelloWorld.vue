@@ -41,7 +41,7 @@
 
   </div>
   <br>
-  <TotalScore stock6data="stock6data" />
+  <TotalScore v-bind:stock6data="response" />
 
 </template>
 
@@ -58,7 +58,7 @@ export default {
   }, 
   data(){
     return {
-
+      response: "",
       isBtnDisabled: true,
       price: 1000,
       quantity: 5.5,
