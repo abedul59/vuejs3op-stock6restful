@@ -48,27 +48,27 @@
      <table>
      <tr>
      <td><h1>指標1</h1></td>
-     <td><h1>{{response.cSign1}}</h1></td>
+     <td><h1>{{cSign1}}</h1></td>
      </tr>
      <tr>
      <td><h1>指標2</h1></td>
-     <td><h1>{{response.cSign2}}</h1></td>
+     <td><h1>{{cSign2}}</h1></td>
      </tr>
      <tr>
      <td><h1>指標3</h1></td>
-     <td><h1>{{response.cSign3}}</h1></td>
+     <td><h1>{{cSign3}}</h1></td>
      </tr>
      <tr>
      <td><h1>指標4</h1></td>
-     <td><h1>{{response.cSign4}}</h1></td>
+     <td><h1>{{cSign4}}</h1></td>
      </tr>
      <tr>
      <td><h1>指標5</h1></td>
-     <td><h1>{{response.cSign5}}</h1></td>
+     <td><h1>{{cSign5}}</h1></td>
      </tr>
      <tr>
      <td><h1>指標6</h1></td>
-     <td><h1>{{response.cSign6}}</h1></td>
+     <td><h1>{{cSign6}}</h1></td>
      </tr>
      </table>
  </div>
@@ -135,8 +135,13 @@ export default {
           const {cStockName, cNewestSeason} = response;
           console.log(cStockName);
           console.log(cNewestSeason);
-          
-          
+          const {cSign1, cSign2, cSign3, cSign4, cSign5, cSign6,} = response;
+          console.log(cSign1);          
+          console.log(cSign2);     
+          console.log(cSign3);     
+          console.log(cSign4);     
+          console.log(cSign5);     
+          console.log(cSign6);     
         });  
       },      
 
