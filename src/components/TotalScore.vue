@@ -49,12 +49,12 @@
     }, 
     data(){
       return {
-        cSign1: this.stock6data.cSign1,
-        cSign2: this.stock6data.cSign2,     
-        cSign3: this.stock6data.cSign3, 
-        cSign4: this.stock6data.cSign4, 
-        cSign5: this.stock6data.cSign5, 
-        cSign6: this.stock6data.cSign6, 
+        cSign1: "",
+        cSign2: "",     
+        cSign3: "",
+        cSign4: "",
+        cSign5: "",
+        cSign6: "",
     
       }
     },
