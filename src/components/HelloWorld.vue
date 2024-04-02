@@ -41,10 +41,10 @@
 
   </div>
   <br>
-  <div>
+  
  
 
- <div  v-if="cSign1">
+ <div v-if="cSign1">
      <table>
      <tr>
      <td><h1>指標1</h1></td>
@@ -72,7 +72,7 @@
      </tr>
      </table>
  </div>
- </div>
+ 
 
 </template>
 
@@ -100,9 +100,14 @@ export default {
       inputText2: '',
       result: '',
       result2: '',
-      Url: ''
-     
-
+      Url: '',
+      cSign1: "",
+      cSign2: "",     
+      cSign3: "",
+      cSign4: "",
+      cSign5: "",
+      cSign6: "",
+  
     }
   },
 
@@ -141,8 +146,17 @@ export default {
           console.log(cSign3);     
           console.log(cSign4);     
           console.log(cSign5);     
-          console.log(cSign6);     
+          console.log(cSign6);  
+          this.cSign1 = cSign1;
+          this.cSign2 = cSign2;
+          this.cSign3 = cSign3;
+          this.cSign4 = cSign4;
+          this.cSign5 = cSign5;
+          this.cSign6 = cSign6;          
         });  
+
+      
+
       },      
 
 }
