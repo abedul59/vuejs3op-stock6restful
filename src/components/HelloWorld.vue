@@ -132,10 +132,10 @@ export default {
         fetch(this.result2) 
         .then(data => data.json())
         .then(response => {
-          const {cStockName, cNewestSeason} = response;
+          const {cStockName, cNewestSeason,cSign1, cSign2, cSign3, cSign4, cSign5, cSign6} = response;
           console.log(cStockName);
           console.log(cNewestSeason);
-          const {cSign1, cSign2, cSign3, cSign4, cSign5, cSign6,} = response;
+          //const {cSign1, cSign2, cSign3, cSign4, cSign5, cSign6} = response;
           console.log(cSign1);          
           console.log(cSign2);     
           console.log(cSign3);     
