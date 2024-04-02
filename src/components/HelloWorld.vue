@@ -72,16 +72,19 @@
      </tr>
      </table>
  </div>
+ <br>
+ <br>
  
+ <TotalScore v-bind:stock6data="response"></TotalScore>
 
 </template>
 
 <script>
-
+import TotalScore from './components/TotalScore.vue'
 export default {
   name: 'HelloWorld',
   components: {
-
+    TotalScore
   },
 
   props: {
