@@ -75,7 +75,7 @@
  <br>
  <br>
 
- <TotalScore v-bind="response"></TotalScore>
+ <TotalScore v-bind="response" />
 
 </template>
 
