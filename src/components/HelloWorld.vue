@@ -44,7 +44,7 @@
   <div>
  
 
- <div>
+ <div  v-if="cSign1">
      <table>
      <tr>
      <td><h1>指標1</h1></td>
