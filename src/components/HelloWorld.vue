@@ -74,8 +74,8 @@
  </div>
  <br>
  <br>
- 
- <TotalScore v-bind:stock6data="response"></TotalScore>
+
+ <TotalScore v-bind="response"></TotalScore>
 
 </template>
 
