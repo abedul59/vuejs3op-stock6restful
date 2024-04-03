@@ -72,7 +72,7 @@
  <br>
  <br>
 
-<stock-s1gn></stock-s1gn>
+<stock-s1gn :cSign1="cSign1"></stock-s1gn>
 
 </template>
 
