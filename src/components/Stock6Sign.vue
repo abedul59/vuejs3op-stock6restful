@@ -73,15 +73,15 @@
  <br>
 
 
-<stock-sign1></stock-sign1>
+
 </template>
 
 <script>
-import StockSign1 from './components/StockSign1.vue'
+//import StockSign1 from './components/StockSign1.vue'
 export default {
   name: 'Stock6Sign',
   components: {
-    StockSign1
+
   },
 
   props: {
@@ -89,7 +89,7 @@ export default {
   }, 
   data(){
     return {
-      response: "",
+      stock6data: "",
       inputText2: '',
       result2: '',
       Url: '',
@@ -121,9 +121,11 @@ export default {
           const {cStockName, cNewestSeason,cSign1, cSign2, cSign3, cSign4, cSign5, cSign6} = response;
           console.log(cStockName);
           console.log(cNewestSeason);
-
+          this.stock6data = response;
+          console.log(this.stock6data);
           this.cStockName = cStockName;
           this.cNewestSeason = cNewestSeason;
+          
           this.cSign1 = cSign1;
           this.cSign2 = cSign2;
           this.cSign3 = cSign3;
