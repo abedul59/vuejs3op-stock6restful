@@ -21,30 +21,30 @@
  
 
  <div v-if="cSign1">
-     <table>
+     <table align=center border="1">
      <tr>
-     <td><h1>指標1</h1></td>
-     <td><h1>{{cSign1}}</h1></td>
+     <td align=center><h1>指標1</h1></td>
+     <td align=center><h1>{{cSign1}}</h1></td>
      </tr>
      <tr>
-     <td><h1>指標2</h1></td>
-     <td><h1>{{cSign2}}</h1></td>
+     <td align=center><h1>指標2</h1></td>
+     <td align=center><h1>{{cSign2}}</h1></td>
      </tr>
      <tr>
-     <td><h1>指標3</h1></td>
-     <td><h1>{{cSign3}}</h1></td>
+     <td align=center><h1>指標3</h1></td>
+     <td align=center><h1>{{cSign3}}</h1></td>
      </tr>
      <tr>
-     <td><h1>指標4</h1></td>
-     <td><h1>{{cSign4}}</h1></td>
+     <td align=center><h1>指標4</h1></td>
+     <td align=center><h1>{{cSign4}}</h1></td>
      </tr>
      <tr>
-     <td><h1>指標5</h1></td>
-     <td><h1>{{cSign5}}</h1></td>
+     <td align=center><h1>指標5</h1></td>
+     <td align=center><h1>{{cSign5}}</h1></td>
      </tr>
      <tr>
-     <td><h1>指標6</h1></td>
-     <td><h1>{{cSign6}}</h1></td>
+     <td align=center><h1>指標6</h1></td>
+     <td align=center><h1>{{cSign6}}</h1></td>
      </tr>
      </table>
  </div>
