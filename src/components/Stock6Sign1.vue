@@ -2,7 +2,7 @@
     
 
 <div>
-<FONT SIZE="7">555555555555555555</FONT>  
+<FONT SIZE="7">{{ Sign1 }}</FONT>  
 </div>
  
 </template>
@@ -20,7 +20,7 @@
     }, 
     data(){
       return {
-
+            Sign1: "555"
     
       }
     },
