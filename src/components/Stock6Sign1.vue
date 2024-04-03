@@ -18,9 +18,7 @@
   
     },
   
-    props: {
-        cSign1: String
-    }, 
+    props: ['cSign1'], 
     data(){
       return {
     
