@@ -4,33 +4,9 @@
 
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h1>{{ msg }}</h1>
-
-    <h1>{{price}}</h1><br>
-    <h1>{{quantity}}</h1><br>
-    <h1>{{price * quantity}}</h1><br>
-    <h1>{{subtotal1}}</h1><br>
-    <h1>{{subtotal2()}}</h1><br>
-
-    <input v-model = "message1" placeholder="edit me!">
-    <p>Message is {{ message1 }}</p>
-
-    <textarea v-model="message2" placeholder="add multiple lines"></textarea>
-    <p><span>Multiline message is:</span> {{ message2 }}</p>
-
-    <button>click me!</button>
-
-    <button v-bind:disabled="isBtnDisabled">click me2!</button>
-
-    <button @click="plus">click me3!</button>
-    <p>Message is {{ count }}</p>
+  
 
 
-    <input type="text" v-model="inputText" placeholder="Type something">
-    <button @click="showResult">Submit</button>
-    <div v-if="result">
-      <p>Result: {{ result }}</p>
-    </div>
 
     <input type="text" v-model="inputText2" placeholder="Type something2">
     <button @click="handleSubmit">Submit2</button>
@@ -93,15 +69,7 @@ export default {
   data(){
     return {
       response: "",
-      isBtnDisabled: true,
-      price: 1000,
-      quantity: 5.5,
-      message1: "",
-      message2: "",
-      count: 0,
-      inputText: '',
       inputText2: '',
-      result: '',
       result2: '',
       Url: '',
       cSign1: "",
@@ -115,23 +83,10 @@ export default {
   },
 
   computed: {
-    subtotal1: function(){
-      return this.price * this.quantity;
-    } 
+
   },
 
   methods: {
-    subtotal2: function(){
-      return this.price * this.quantity;
-    },
-    plus(){
-      this.count++;
-    },
-
-    showResult() {
-          this.result = this.inputText;
-        },
-
     handleSubmit(){
 
         this.result2 =  `https://stock6-restfulex.onrender.com/api/Stock6Sign202402/getstockinfo/${this.inputText2}`;
