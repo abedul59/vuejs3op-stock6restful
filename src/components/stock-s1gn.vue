@@ -13,7 +13,7 @@
 <script>
   
   export default {
-    name: 'StockSign1',
+    name: 'StockS1gn',
     components: {
   
     },

@@ -72,16 +72,16 @@
  <br>
  <br>
 
-
+<stock-s1gn></stock-s1gn>
 
 </template>
 
 <script>
-//import StockSign1 from './components/StockSign1.vue'
+import StockS1gn from './components/StockS1gn.vue'
 export default {
   name: 'Stock6Sign',
   components: {
-
+    StockS1gn
   },
 
   props: {
