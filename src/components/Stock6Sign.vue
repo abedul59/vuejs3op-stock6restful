@@ -73,15 +73,15 @@
  <br>
 
 
-
+<stock6-sign1 v-bind:cSign1="cSign1"></stock6-sign1>
 </template>
 
 <script>
-
+import Stock6Sign1 from './components/Stock6Sign1.vue'
 export default {
   name: 'Stock6Sign',
   components: {
-
+    Stock6Sign1
   },
 
   props: {
