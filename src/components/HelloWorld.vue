@@ -21,32 +21,55 @@
  
 
  <div v-if="cSign1">
-     <table align=center border="1">
-     <tr>
-     <td align=center><h1>指標1</h1></td>
-     <td align=center><h1>{{cSign1}}</h1></td>
-     </tr>
-     <tr>
-     <td align=center><h1>指標2</h1></td>
-     <td align=center><h1>{{cSign2}}</h1></td>
-     </tr>
-     <tr>
-     <td align=center><h1>指標3</h1></td>
-     <td align=center><h1>{{cSign3}}</h1></td>
-     </tr>
-     <tr>
-     <td align=center><h1>指標4</h1></td>
-     <td align=center><h1>{{cSign4}}</h1></td>
-     </tr>
-     <tr>
-     <td align=center><h1>指標5</h1></td>
-     <td align=center><h1>{{cSign5}}</h1></td>
-     </tr>
-     <tr>
-     <td align=center><h1>指標6</h1></td>
-     <td align=center><h1>{{cSign6}}</h1></td>
-     </tr>
-     </table>
+
+<table border="2" cellpadding="1" cellspacing="5"  style="border:1px solid black;margin-left:auto;margin-right:auto;">
+<caption><FONT SIZE="6">六大指標</FONT></caption>
+<tr>	
+<td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">台股代號：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{mess}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">股票名稱：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{stock_name}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">營收評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign1}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">營益率評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign2}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">稅後淨利評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign3}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">EPS評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign4}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">存貨週轉率評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign5}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FFA6FF;" align="center"><div><FONT SIZE="7">現金流量評等：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cSign6}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#FF2D2D;" align="center"><div><FONT SIZE="7">總平均：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{average6stock}}</FONT></div></td>
+</tr>
+</table>
+
  </div>
  <br>
  <br>
