@@ -75,16 +75,16 @@
  <br>
  <br>
 
- <TotalScore :cSign1="cSign1" />
+
 
 </template>
 
 <script>
-import TotalScore from './components/TotalScore.vue'
+
 export default {
   name: 'HelloWorld',
   components: {
-    TotalScore
+
   },
 
   props: {
