@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to TEST TEST TEST!"/>
+  <Stock6Sign msg="Welcome to TEST TEST TEST!"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Stock6Sign from './components/Stock6Sign.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Stock6Sign
   }
 }
 </script>

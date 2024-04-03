@@ -28,7 +28,7 @@
 </tr>
 
 <tr>	
-<td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">最新季月：</FONT></div></td>
+<td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">最新財報季度：</FONT></div></td>
 <td align="center"><div><FONT SIZE="7">{{cNewestSeason}}</FONT></div></td>
 </tr>
 
@@ -79,7 +79,7 @@
 <script>
 
 export default {
-  name: 'HelloWorld',
+  name: 'Stock6Sign',
   components: {
 
   },
