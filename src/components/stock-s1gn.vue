@@ -1,11 +1,9 @@
 <template>
     
 
-<div v-if="cSign1">
-<FONT SIZE="7">{{ cSign1 }}</FONT>  
-<br>
-<FONT SIZE="7">5555555</FONT>  
+<div>
 
+<FONT SIZE="7">5555555</FONT>  
 </div>
 
 </template>
