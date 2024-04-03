@@ -1,14 +1,9 @@
 <template>
 
-
-
   <div class="hello">
     <h1>{{ msg }}</h1>
   
-
-
-
-    <input type="text" v-model="inputText2" placeholder="Type something2">
+    <input type="text" v-model="inputText2" placeholder="輸入台股代號">
     <button @click="handleSubmit">Submit2</button>
     <div v-if="result2">
       <p>Result2: {{ result2 }}</p>
@@ -18,20 +13,23 @@
   </div>
   <br>
   
- 
-
- <div v-if="cSign1">
+<div v-if="cSign1">
 
 <table border="2" cellpadding="1" cellspacing="5"  style="border:1px solid black;margin-left:auto;margin-right:auto;">
 <caption><FONT SIZE="6">六大指標</FONT></caption>
 <tr>	
 <td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">台股代號：</FONT></div></td>
-<td align="center"><div><FONT SIZE="7">{{mess}}</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{inputText2}}</FONT></div></td>
 </tr>
 
 <tr>	
 <td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">股票名稱：</FONT></div></td>
-<td align="center"><div><FONT SIZE="7">{{stock_name}}</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cStockName}}</FONT></div></td>
+</tr>
+
+<tr>	
+<td style="background-color:#D3A4FF;" align="center"><div><FONT SIZE="7">最新季月：</FONT></div></td>
+<td align="center"><div><FONT SIZE="7">{{cNewestSeason}}</FONT></div></td>
 </tr>
 
 <tr>	
@@ -95,6 +93,8 @@ export default {
       inputText2: '',
       result2: '',
       Url: '',
+      cStockName: '',
+      cNewestSeason: '',
       cSign1: "",
       cSign2: "",     
       cSign3: "",
@@ -121,13 +121,9 @@ export default {
           const {cStockName, cNewestSeason,cSign1, cSign2, cSign3, cSign4, cSign5, cSign6} = response;
           console.log(cStockName);
           console.log(cNewestSeason);
-          //const {cSign1, cSign2, cSign3, cSign4, cSign5, cSign6} = response;
-          console.log(cSign1);          
-          console.log(cSign2);     
-          console.log(cSign3);     
-          console.log(cSign4);     
-          console.log(cSign5);     
-          console.log(cSign6);  
+
+          this.cStockName = cStockName;
+          this.cNewestSeason = cNewestSeason;
           this.cSign1 = cSign1;
           this.cSign2 = cSign2;
           this.cSign3 = cSign3;
