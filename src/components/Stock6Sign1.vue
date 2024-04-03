@@ -1,12 +1,9 @@
 <template>
     
 
-<div>
-<FONT SIZE="7">{{ Sign1 }}</FONT>  
-
-</div>
+<div v-if="cSign1">
+<FONT SIZE="7">{{ cSign1 }}</FONT>  
 <br>
-<div>
 <FONT SIZE="7">5555555</FONT>  
 
 </div>
@@ -22,11 +19,10 @@
     },
   
     props: {
-  
+        cSign1: String
     }, 
     data(){
       return {
-            Sign1: 'xxxxx'
     
       }
     },
