@@ -17,7 +17,7 @@
     },
   
     props: {
-      cSign1: String
+      sign1Bind: Object
     }, 
 
     data(){

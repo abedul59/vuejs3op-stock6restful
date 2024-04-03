@@ -72,7 +72,7 @@
  <br>
  <br>
 
-<stock-s1gn :cSign1="cSign1"></stock-s1gn>
+<stock-s1gn v-bind="sign1Bind"></stock-s1gn>
 
 </template>
 
@@ -106,7 +106,12 @@ export default {
   },
 
   computed: {
-
+    sign1Bind(){
+      return {
+        'cSign1': this.cSign1,
+        'cSign2': this.cSign2        
+      }
+    }
   },
 
   methods: {
