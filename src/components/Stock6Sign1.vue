@@ -18,7 +18,7 @@
   
     },
   
-    props: ['cSign1'], 
+    props: [], 
     data(){
       return {
     

@@ -73,7 +73,7 @@
  <br>
 
 
-<stock6-sign1 v-bind:c-sign1="cSign1"></stock6-sign1>
+<stock6-sign1></stock6-sign1>
 </template>
 
 <script>
