@@ -1,18 +1,19 @@
 <template>
     
 
-
-
+<div v-if="cSign1">
+<FONT SIZE="7">{{ cSign1 }}</FONT>  
+<br>
 <FONT SIZE="7">5555555</FONT>  
 
-
+</div>
 
 </template>
   
 <script>
   
   export default {
-    name: 'stock-sign1',
+    name: 'StockSign1',
     components: {
   
     },
