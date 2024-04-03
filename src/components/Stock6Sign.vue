@@ -77,7 +77,7 @@
 </template>
 
 <script>
-import StockS1gn from './components/StockS1gn.vue'
+import StockS1gn from './StockS1gn.vue'
 export default {
   name: 'Stock6Sign',
   components: {
