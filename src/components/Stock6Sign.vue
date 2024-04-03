@@ -73,7 +73,7 @@
  <br>
 
 
-<StockSign1 />
+<stock-sign1></stock-sign1>
 </template>
 
 <script>
