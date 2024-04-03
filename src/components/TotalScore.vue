@@ -43,24 +43,10 @@
     },
   
     props: [{
-        'cSign1': {
+        cSign1: {
             type: String
         },
-        'cSign2': {
-            type: String
-        },
-        'cSign3': {
-            type: String
-        },
-        'cSign4': {
-            type: String
-        },
-        'cSign5': {
-            type: String
-        },
-        'cSign6': {
-            type: String
-        }
+
     }], 
     data(){
       return {

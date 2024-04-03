@@ -75,7 +75,7 @@
  <br>
  <br>
 
- <TotalScore :cSign1="cSign1" :cSign2="cSign2" :cSign3="cSign3" :cSign4="cSign4" :cSign5="cSign5" :cSign6="cSign6" />
+ <TotalScore :cSign1="cSign1" />
 
 </template>
 
