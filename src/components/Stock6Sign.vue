@@ -73,15 +73,17 @@
  <br>
 
 <stock-s1gn :cSign6="stock6data.cSign6"></stock-s1gn>
-
+<total-score></total-score>
 </template>
 
 <script>
 import StockS1gn from './StockS1gn.vue'
+import TotalScore from './TotalScore.vue'
 export default {
   name: 'Stock6Sign',
   components: {
-    StockS1gn
+    StockS1gn,
+    TotalScore
   },
 
   props: {

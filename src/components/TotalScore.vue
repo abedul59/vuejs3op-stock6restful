@@ -6,9 +6,9 @@
     <FONT SIZE="7">{{ stock6data.cSign5 }}</FONT>  
     </div>
     
-    </template>
+</template>
       
-    <script>
+<script>
       
       export default {
         name: 'TotalScore',
@@ -38,10 +38,10 @@
       
     
       
-      </script>
+</script>
       
-      <!-- Add "scoped" attribute to limit CSS to this component only -->
-      <style scoped>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
       h3 {
         margin: 40px 0 0;
       }
@@ -56,5 +56,5 @@
       a {
         color: #42b983;
       }
-      </style>
+</style>
       
