@@ -73,12 +73,15 @@
  <br>
 
 <stock-s1gn :cSign6="stock6data.cSign6"></stock-s1gn>
-<total-score></total-score>
+<total-score v-bind="stock6data2"></total-score>
 </template>
 
 <script>
 import StockS1gn from './StockS1gn.vue'
 import TotalScore from './TotalScore.vue'
+
+
+
 export default {
   name: 'Stock6Sign',
   components: {
@@ -90,7 +93,9 @@ export default {
 
   }, 
   data(){
+    const stock6data2 = {};
     return {
+      stock6data2,
       stock6data: {},
       inputText2: '',
       result2: '',
@@ -124,6 +129,7 @@ export default {
           console.log(cStockName);
           console.log(cNewestSeason);
           this.stock6data = response;
+          this.stock6data2 = response;
           console.log(this.stock6data);
           this.cStockName = cStockName;
           this.cNewestSeason = cNewestSeason;

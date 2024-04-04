@@ -3,8 +3,9 @@
 
     <div>
     <FONT SIZE="7">666666</FONT>  
-    <FONT SIZE="7">{{ stock6data.cSign5 }}</FONT>  
-    </div>
+    <FONT SIZE="7">{{ cSign5 }}</FONT>  
+    <FONT SIZE="7">{{ cSign6 }}</FONT>  
+  </div>
     
 </template>
       
@@ -17,8 +18,9 @@
         },
       
         props: {
-          stock6data: Object
-        }, 
+          cSign5: String,
+          cSign6: String,
+          }, 
     
         data(){
           return {
