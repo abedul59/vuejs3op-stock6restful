@@ -1,9 +1,9 @@
 <template>
     
 
-<div v-if = cSign1>
+<div>
 <FONT SIZE="7">5555555</FONT>  
-<FONT SIZE="7">{{ cSign1 }}</FONT>  
+<FONT SIZE="7">{{ cSign6 }}</FONT>  
 </div>
 
 </template>
@@ -17,7 +17,7 @@
     },
   
     props: {
-      sign1Bind: Object
+      cSign6: String
     }, 
 
     data(){
