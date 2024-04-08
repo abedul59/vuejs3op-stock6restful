@@ -1,7 +1,7 @@
 <template>
     
 
-
+<div v-if="cSign1">
 <table border="2" cellpadding="1" cellspacing="5"  style="border:1px solid black;margin-left:auto;margin-right:auto;">
 <caption><FONT SIZE="6">營收詳細資料</FONT></caption>
 
@@ -63,6 +63,7 @@
 
 
 </table>
+</div>
 </template>
   
 <script>
