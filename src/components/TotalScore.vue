@@ -69,6 +69,13 @@
         },
       
         props: {
+          inputText2: String,
+          cStockName: String,
+          cNewestSeason: String,
+          cSign1: String,
+          cSign2: String,
+          cSign3: String,
+          cSign4: String,
           cSign5: String,
           cSign6: String,
           }, 
