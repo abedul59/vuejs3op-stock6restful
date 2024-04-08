@@ -11,46 +11,46 @@
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">111/1,2月平均</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{luX}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">111/1,2月平均</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cluX}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a1N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na1}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca1N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna1}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a2N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na2}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca2N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna2}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a3N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na3}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca3N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna3}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a4N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na4}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca4N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna4}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a5N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na5}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca5N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna5}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a6N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na6}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca6N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna6}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{a7N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na7}}</FONT></div></td>
+<td align="center" style="background-color:#DCB5FF;"><div><FONT SIZE="7">{{ca7N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna7}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF0080;"><div><FONT SIZE="7">六個月平均</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na9}}</FONT></div></td>
+<td align="center" style="background-color:#FF0080;"><div><FONT SIZE="7">六個月平均</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna9}}</FONT></div></td>
 </tr>
 
 
 
 
 <tr>
-<td align="center" style="background-color:#FF0080;"><div><FONT SIZE="7">最新一個月月增率（一般情況）</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{na10}}</FONT></div></td>
+<td align="center" style="background-color:#FF0080;"><div><FONT SIZE="7">最新一個月月增率（一般情況）</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cna10}}</FONT></div></td>
 </tr>
 
 
@@ -75,23 +75,23 @@
     },
   
     props: {
-      a1N: String,
-      a2N: String,
-      a3N: String,
-      a4N: String,
-      a5N: String,
-      a6N: String,
-      a7N: String,
+      cluX: String,      
+      ca2N: String,
+      ca3N: String,
+      ca4N: String,
+      ca5N: String,
+      ca6N: String,
+      ca7N: String,
 
-      na1: String,
-      na2: String,
-      na3: String,
-      na4: String,
-      na5: String,
-      na6: String,
-      na7: String,
-      na9: String,
-      na10: String,
+      cna1: String,
+      cna2: String,
+      cna3: String,
+      cna4: String,
+      cna5: String,
+      cna6: String,
+      cna7: String,
+      cna9: String,
+      cna10: String,
       cSign1: String,
     }, 
 
