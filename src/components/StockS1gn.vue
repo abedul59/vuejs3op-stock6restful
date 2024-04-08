@@ -75,7 +75,8 @@
     },
   
     props: {
-      cluX: String,      
+      cluX: String,   
+      ca1N: String,   
       ca2N: String,
       ca3N: String,
       ca4N: String,
