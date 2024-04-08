@@ -18,7 +18,7 @@
  
 <total-score v-bind="stock6data2"></total-score>
  <br>
-<stock-s1gn :cSign6="stock6data.cSign6"></stock-s1gn>
+<stock-s1gn v-bind="stock6data2"></stock-s1gn>
 
 </template>
 
