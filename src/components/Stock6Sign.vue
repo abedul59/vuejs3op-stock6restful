@@ -19,11 +19,13 @@
 <total-score v-bind="stock6data2"></total-score>
  <br>
 <stock-s1gn v-bind="stock6data2"></stock-s1gn>
-
+<br>
+<stock-s2gn v-bind="stock6data2"></stock-s2gn>
 </template>
 
 <script>
 import StockS1gn from './StockS1gn.vue'
+import StockS2gn from './StockS2gn.vue'
 import TotalScore from './TotalScore.vue'
 
 
@@ -32,6 +34,7 @@ export default {
   name: 'Stock6Sign',
   components: {
     StockS1gn,
+    StockS2gn,
     TotalScore
   },
 
