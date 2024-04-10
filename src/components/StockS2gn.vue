@@ -14,56 +14,56 @@
 
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b1N}}</FONT></div></td>
- <td align="center"><div><FONT SIZE="7">{{b1}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb1N}}</FONT></div></td>
+ <td align="center"><div><FONT SIZE="7">{{cb1}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b2N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b2}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb2N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb2}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b3N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b3}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb3N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb3}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b4N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b4}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb4N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb4}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b5N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b5}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb5N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb5}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b6N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b6}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb6N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb6}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b7N}}</FONT></div></td> 
-<td align="center"><div><FONT SIZE="7">{{b7}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb7N}}</FONT></div></td> 
+<td align="center"><div><FONT SIZE="7">{{cb7}}</FONT></div></td>
 </tr>
 
 
 <tr>
-<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{b8N}}</FONT></div></td> 
-<td><div align="center"><FONT SIZE="7">{{b8}}</FONT></div></td>
+<td align="center" style="background-color:#9999CC;"><div><FONT SIZE="7">{{cb8N}}</FONT></div></td> 
+<td><div align="center"><FONT SIZE="7">{{cb8}}</FONT></div></td>
 </tr>
 
 
 <tr>
 <td align="center" style="background-color:#2894FF;"><div><FONT SIZE="7">近四季平均</FONT></div></td>
- <td><div align="center"><FONT SIZE="7">{{b9}}</FONT></div></td>
+ <td><div align="center"><FONT SIZE="7">{{cb9}}</FONT></div></td>
 </tr>
 
 
 <tr>
 <td align="center" style="background-color:#2894FF;"><div><FONT SIZE="7">最新一季季增率</FONT></div></td> 
-<td><div align="center"><FONT SIZE="7">{{b10p}}</FONT></div></td>
+<td><div align="center"><FONT SIZE="7">{{cb10p}}</FONT></div></td>
 </tr>
 
 <tr>
