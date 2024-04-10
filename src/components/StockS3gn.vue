@@ -13,36 +13,36 @@
 
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c1N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c1}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc1N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc1}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c2N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c2}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc2N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc2}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c3N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c3}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc3N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc3}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c4N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c4}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc4N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc4}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c5N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c5}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc5N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc5}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c6N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c6}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc6N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc6}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c7N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{c7}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc7N}}</FONT></div></td> <td align="center"><div><FONT SIZE="7">{{cc7}}</FONT></div></td>
 </tr>
 
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{c8N}}</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{c8}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">{{cc8N}}</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cc8}}</FONT></div></td>
 </tr>
 
 
@@ -52,21 +52,21 @@
 
 
 <tr>
-<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新1季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{pc9}}</FONT></div></td>
+<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新1季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cpc9}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新2季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{pc10}}</FONT></div></td>
+<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新2季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cpc10}}</FONT></div></td>
 </tr>
 
 <tr>
-<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新3季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{pc11}}</FONT></div></td>
+<td align="center" style="background-color:#B766AD;"><div><FONT SIZE="7">最新3季年增率</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cpc11}}</FONT></div></td>
 </tr>
 
 
 
 <tr>
-<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">評等</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{result3}}</FONT></div></td>
+<td align="center" style="background-color:#FF7575;"><div><FONT SIZE="7">評等</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cSign3}}</FONT></div></td>
 </tr>
 
 </table>
