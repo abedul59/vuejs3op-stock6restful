@@ -21,12 +21,18 @@
 <stock-s2gn v-bind="stock6data2"></stock-s2gn>
 <br>
 <stock-s3gn v-bind="stock6data2"></stock-s3gn>
+<br>
+<stock-s4gn v-bind="stock6data2"></stock-s4gn>
+<br>
+<stock-s5gn v-bind="stock6data2"></stock-s5gn>
 </template>
 
 <script>
 import StockS1gn from './StockS1gn.vue'
 import StockS2gn from './StockS2gn.vue'
 import StockS3gn from './StockS3gn.vue'
+import StockS4gn from './StockS4gn.vue'
+import StockS5gn from './StockS5gn.vue'
 import TotalScore from './TotalScore.vue'
 
 
@@ -37,6 +43,8 @@ export default {
     StockS1gn,
     StockS2gn,
     StockS3gn,
+    StockS4gn,
+    StockS5gn,
     TotalScore
   },
 
