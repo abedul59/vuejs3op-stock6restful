@@ -4,12 +4,10 @@
     <h1>{{ msg }}</h1>
   
     <input type="text" v-model="inputText2" placeholder="輸入台股代號">
-    <button @click="handleSubmit">Submit2</button>
+    <button @click="handleSubmit">Submit</button>
     <div v-if="result2">
       <p>Result2: {{ result2 }}</p>
     </div>
-
-
   </div>
   <br>
   
@@ -17,15 +15,18 @@
  <br>
  
 <total-score v-bind="stock6data2"></total-score>
- <br>
+<br>
 <stock-s1gn v-bind="stock6data2"></stock-s1gn>
 <br>
 <stock-s2gn v-bind="stock6data2"></stock-s2gn>
+<br>
+<stock-s3gn v-bind="stock6data2"></stock-s3gn>
 </template>
 
 <script>
 import StockS1gn from './StockS1gn.vue'
 import StockS2gn from './StockS2gn.vue'
+import StockS3gn from './StockS3gn.vue'
 import TotalScore from './TotalScore.vue'
 
 
@@ -35,6 +36,7 @@ export default {
   components: {
     StockS1gn,
     StockS2gn,
+    StockS3gn,
     TotalScore
   },
 
