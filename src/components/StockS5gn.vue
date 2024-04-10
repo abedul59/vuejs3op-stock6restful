@@ -45,7 +45,7 @@
 
 
 <tr>
-<td align="center" style="background-color:#A3D1D1;"><div><FONT SIZE="7">評等</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{result5}}</FONT></div></td>
+<td align="center" style="background-color:#A3D1D1;"><div><FONT SIZE="7">評等</FONT></div></td> <td><div align="center"><FONT SIZE="7">{{cSign5}}</FONT></div></td>
 </tr>
 
 </table>

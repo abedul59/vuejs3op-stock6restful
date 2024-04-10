@@ -1,7 +1,7 @@
 <template>
     
 
-<div v-if="cSign1">
+<div v-if="cSign2">
 <table border="2" cellpadding="1" cellspacing="5"  style="border:1px solid black;margin-left:auto;margin-right:auto;">
 <caption><FONT SIZE="6">營益率詳細資料</FONT></caption>
 
